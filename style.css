@@ -14,6 +14,7 @@ body {
 
 .aaa img {
   width: 100%;
+  margin-bottom: -3px;
 }
 
 .aaa .more_inf {
@@ -29,9 +30,12 @@ body {
 }
 
 .centered-main-page-element {
-  display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 16px auto 0;
+}
+
+.section1{
+  margin-bottom: 16px;
 }
 
 .task {
@@ -89,7 +93,7 @@ input[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
-  height: 21px;
+  max-height: 19px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -103,9 +107,8 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
+h3.new-task{
+  margin-bottom: 20px;
 }
 
 input#new-task {
@@ -120,6 +123,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-height: 32px;
 }
 
 li > * {
